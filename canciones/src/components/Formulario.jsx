@@ -31,7 +31,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
 
      if(artista.trim() === ''||cancion === ''){
        guardarError(true)
-       return;
+       return; 
      }
      guardarError(false)
      // si todo va bien, pasar al componente principal
