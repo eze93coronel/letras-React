@@ -47,7 +47,7 @@ return (
 
   <div className="row">
 
-
+   
         <form 
         onSubmit={buscarInformacion}
          className="col card text-white bg-transparent mb-5 pt-5 pb-2"
