@@ -33,6 +33,7 @@ const Formulario = ({guardarBusquedaLetra}) => {
        guardarError(true)
        return; 
      }
+     
      guardarError(false)
      // si todo va bien, pasar al componente principal
      guardarBusquedaLetra(busqueda);
